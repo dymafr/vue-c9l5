@@ -1,8 +1,8 @@
 <template>
   <Enfant>
-    <template #header="slotProps">
+    <template #header="{ date }">
       <h1>Titre de l'article</h1>
-      <small>{{ slotProps.date }}</small>
+      <small>{{ date }}</small>
     </template>
     <p>
       Le Lorem Ipsum est simplement du faux texte employé dans la composition et
