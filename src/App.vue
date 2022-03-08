@@ -2,7 +2,7 @@
   <Enfant>
     <template #header="{ date }">
       <h1>Titre de l'article</h1>
-      <small>{{ date }}</small>
+      <small>{{ date.toLocaleString() }}</small>
     </template>
     <p>
       Le Lorem Ipsum est simplement du faux texte employé dans la composition et
